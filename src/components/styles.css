@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.HeaderBar {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  width: 98%;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  top:10px;
+  padding:10px 8px;
+}
+
+.icons {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.chat_no {
+  display: flex;
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  height: 20px;
+  width: 20px;
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+/* .chat{
+    background: linear-gradient(179.97deg, #010002 -0.73%, #666666 94.06%);
+
+} */
+
+.Header_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 4px;
+  width: 94%;
+  margin: 0 33px;
+  gap: 20px;
+}
+
+.DevConn {
+  display: flex;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  align-items: flex-end;
+}
+
+.DEV {
+  font-size: 50px;
+}
+.Conn {
+  font-size: 30px;
+  padding-bottom: 4px;
+}
+
+.Searchbar {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 12px;
+  padding: 8px;
+  border-radius: 30px;
+  border: solid;
+  background-color: #efeeee;
+  cursor: text;
+}
+
+.icon_seacrh {
+  color: #7c7c7c;
+  margin-left: 2px;
+  margin-right: 8px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.Search {
+  color: #7c7c7c;
+  flex-grow: 1;
+  font-size: 15px;
+}
+
+.buttons {
+  border-radius: 16px;
+  padding: 8px;
+  height: 35px;
+  width: 100px;
+  box-shadow: 0px 4px 4px 0px #ffffff inset, 0px -4px 4px 0px #000000 inset,
+    0px 4px 4px 0px #00000040;
+  background: linear-gradient(180deg, #000000 0%, #666666 100%);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  width: 224px;
+}
+
+.nav-bar {
+  width: 94.5%;
+  margin-left: 34px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #000000;
+  border-radius: 8px;
+  height: 40px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 16px;
+}
+
+.nav-btn {
+  width: 10%; /* Adjusted to prevent overflow */
+  padding: 4px 8px;
+  cursor: pointer;
+  color: white;
+  background-color: #000000;
+  border: none;
+  font-size: 20px;
+  margin: 4px 8px;
+}
+
+
+
+.Live-Events_box {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #000000;
+
+  /* width:90%; */
+  /* align-items: center;
+    justify-content: center; */
+  background-color: #efeeee;
+  font-family: "Inter";
+  padding: 2px 32px;
+  color: #7c7c7c;
+  gap: 10px;
+  width: 88.8%;
+  margin-left: 34px;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 4px 4px;
+}
+
+.button-1 {
+  border: none;
+  font-size: 16px;
+  /* background-color: #efeeee; */
+}
+
+.text {
+  font-size: 16px;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 4px 4px;
+  height: 40px;
+}
+.image-div {
+  height: 55px;
+  width: 55px;
+  margin-right: 4px;
+}
+.image {
+  height: 100%;
+  width: 100%;
+}
+.section-2-text {
+  font-size: 28px;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  padding: 4px 4px;
+  height: 500px;
+  justify-content: center;
+}
+.guy-image {
+  height: 100%;
+  width: 80%;
+  align-items: center;
+}
+
+.section-4 {
+  font-family: "Inter";
+  font-size: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.section-5 {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+.section-5-button {
+  width: 30%;
+  height: 100%;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 4px 16px;
+  color: white;
+  background: linear-gradient(
+    180.26deg,
+    #000000 0.23%,
+    #181818 24.12%,
+    #666666 99.77%
+  );
+}
