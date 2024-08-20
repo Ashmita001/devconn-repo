@@ -18,7 +18,7 @@ const Live_events = () => {
       </div>
       <div className="section-2">
         <div className="image-div">
-          <img src="Chat\pics\emoji.png" className="image" alt="image" />
+          <img src="Chat/pics/emoji.png" className="image" alt="image" />
         </div>
         <p className="section-2-text">
           Behind the Code : A Discussion with Backend Expert{" "}
